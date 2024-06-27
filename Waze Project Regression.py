@@ -153,7 +153,6 @@ plt.show();
 # ### **Task 3c. Create dummies **
  
 # Create a new, binary column called `device2` that encodes user devices as follows:
-# 
 # * `Android` -> `0`
 # * `iPhone` -> `1`
 
@@ -165,12 +164,9 @@ columna = ["device","device2"]
 print(data[columna])
 
 
-# ### **Task 3d. Model building**
-
+# ### **Task 3d. Model building*
 # #### **Assign predictor variables and target**
-# 
-# To build your model you need to determine what X variables you want to include in your model to predict your target&mdash;`label2`.
-# 
+# To build the model we need to determine what X variables you want to include in your model to predict your target&mdash;`label2`.
 # Drop the following variables and assign the results to `X`:
 # 
 # * `label` (this is the target)
@@ -178,7 +174,6 @@ print(data[columna])
 # * `device` (this is the non-binary-encoded categorical variable)
 # * `sessions` (this had high multicollinearity)
 # * `driving_days` (this had high multicollinearity)
-# 
 # **Note:** Notice that `sessions` and `driving_days` were selected to be dropped, rather than `drives` and `activity_days`. The reason for this is that the features that were kept for modeling had slightly stronger correlations with the target variable than the features that were dropped.
 
 # Isolating predictor variables
@@ -198,7 +193,6 @@ X_train, X_test, y_train, y_test = train_test_split(NoPV, OnlyTV, stratify=OnlyT
 # Use .head()
 X_train.head()
 
-
 # Fit the model on `X_train` and `y_train`.
 
 ### Fitting on X and y train ###
@@ -214,7 +208,6 @@ model.intercept_
 # Get the predicted probabilities of the training data
 t_prob = model.predict_proba(X_train)
 t_prob
-
 
 # In logistic regression, the relationship between a predictor variable and the dependent variable does not need to be linear, however, the log-odds (a.k.a., logit) of the dependent variable with respect to the predictor variable should be linear. Here is the formula for calculating log-odds, where _p_ is the probability of response:
 
