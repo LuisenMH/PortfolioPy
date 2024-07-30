@@ -6,3 +6,5 @@ Here are some projects that were done in Python:
 - **[Regression Analysis on Waze](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Waze%20Project%20Regression.py):** Regression Analysis applied to a case on the company Waze about user churn.<br/>
 - **[Financial Analysis](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Rendimientos%20JPM.py):** In this project a financial analysis was made on the company JPMorganChase based on their results to know the tendency.<br/>
 - **[XGBoost](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/XGBoost_Model.ipynb):** No case here. Program about Machine Learning using XGBoost.
+
+Note: To use the same data used for each program, go to PortfolioPy -> DataBase -> the archive with the same name as the project+Dataset.
