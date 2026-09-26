@@ -1,6 +1,8 @@
 # PortfolioPy
 Here are some projects that were done in Python:
 
+- **[Notes LLM and Generative AI](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Final%20Project%20-%20Salifort%20Motors.ipynb):** These are the notes and exercises about the use of LLMs and Generative AI on Python.<br/>
+
 - **[Final Project](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Final%20Project%20-%20Salifort%20Motors.ipynb):** This is the final project where Machine Learning, statistics, logistic regression, and EDA were used. The study subject was to understand and be able to predict the employee's churn in the company.<br/>
 - **[Machine Learning on TikTok](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Machine%20Learning%20Activity%20TikTok.ipynb):** The following project was made to be able to predict if a video presents a "claim" or presents an "opinion" by using Machine Learning.<br/>
 - **[Regression Analysis on Waze](https://github.com/LuisenMH/PortfolioPy/blob/Python/Projects/Waze%20Project%20Regression.py):** Regression Analysis applied to a case on the company Waze about user churn.<br/>
